@@ -1,0 +1,52 @@
+body {
+  background-color: mediumpurple;
+  color: snow;
+  padding: 40px;
+  text-align: right;
+}
+
+#spectator {
+  font-size: 32px;
+}
+
+#first-response {
+  color: yellow;
+  font-size: 60px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+ul {
+  padding: 0;
+  margin-left: 40px;
+}
+
+ul li {
+  font-family: monospace;
+  font-size: 40px;
+}
+
+blockquote {
+  background: blue;
+  padding: 20px;
+}
+
+#special {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#history {
+  background-color: red;
+  height: 100px;
+  width: 100px;
+  padding: 150px;
+  border-radius: 50%;
+  letter-spacing: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 270px;
+  left: 15px;
+  opacity: .7;
+}
