@@ -1,0 +1,70 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+	box-sizing:inherit;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/5007796/original_6a3d6d0513130847b530678ab240d1a2.png?1568288903?bc=0");
+}
+.canvas{
+	height:100vh;
+	width:100vw;
+	border:2px solid red;
+	overflow-x:scroll;
+	overflow-y: hidden;
+}
+.cowboy{
+	width:30%;
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	z-index:10;
+}
+.cowboy:hover{
+	opacity:0;
+}
+.shoe{
+	position: absolute;
+	top: 40%;
+	left: 20%;
+	width: 30%;
+	opacity: 0;
+	z-index:10;
+}
+.shoe:hover {
+	opacity: 100;
+}
+.oliviapar{
+font-size: 100px;
+color:red;
+line-height: 90px;
+position:absolute;
+}
+.yeehaw{
+	position: absolute;
+	top:10%;
+	right:10%;
+	font-size: 200px;
+	color: red;
+	z-index: 9;
+	font-family: arial, helvetica, sans-sarif;
+	opacity:70%;
+}
+
+@media screen and (min-width:1000px){
+	.oliviapar{
+	color:beige;
+	font-size: 30px;
+	line-height: 20px;
+	position:absolute;
+	top:50%;
+	text-align: center;
+	}
+}

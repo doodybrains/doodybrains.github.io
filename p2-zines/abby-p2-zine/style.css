@@ -1,0 +1,60 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after{
+	box-sizing:inherit;
+}
+
+body{
+	margin: 0;
+	padding:0;
+	overflow: hidden;
+}
+
+.canvas{
+	height:100vh;
+	width:100vw;
+	border:2px solid red;
+	overflow-x:scroll;
+	overflow-y: hidden;
+}
+
+.nadia{
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/5007796/original_6a3d6d0513130847b530678ab240d1a2.png?1568288903?bc=0");
+	border: 2px solid purple;
+}
+.nadiapar{
+	font-size: 50px;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	line-height:45px;
+	text-shadow: 2px 2px yellow;
+	z-index: 10;
+}
+.nadiapar:hover {
+	text-decoration: none;
+	text-transform: uppercase;
+	color:red;
+	text-shadow: 2px 2px purple;
+	font-size: 100px;
+}
+.image1{
+	height: 40%;
+	position: absolute;
+	right:10%;
+	bottom: 10%;
+	display:none;
+	z-index: 9;
+}
+
+@media screen and (min-width:1000px){
+	.canvas{
+	border-width: 20px;
+	}
+	.image1{
+		display: block;
+	}
+}

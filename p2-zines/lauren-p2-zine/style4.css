@@ -1,0 +1,76 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+
+.canvas {
+	height: 100vh;
+	width: 100wh;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	border: 3px solid red;
+}
+.Abby {
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13472722/original_394fc686d2b727dfe54f3a49eab57f2e.jpg?1633631092?bc=0");
+	background-repeat: repeat-x,repeat-y;
+}
+.zine {
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	height: 250px;
+	width: 250px;
+	border:  7px solid yellow;
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13472720/original_5cafe929c76c2d8b8a30dfeb1128a387.jpg?1633631090?bc=0");
+	background-size: contain;
+}
+.zine2 {
+	position: absolute;
+	top: 50%;
+	left: 10%;
+	height: 350px;
+	width: 350px;
+	border:  7px solid yellow;
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13472727/original_10f7cbdcf75955eee81918a97f8bb956.jpg?1633631120?bc=0");
+	background-size: contain;
+}
+p{
+	text-align: center;
+position: absolute;
+top: 25%;
+color: darkorange;
+font-size: 30px;
+font-family: fantasy;
+padding-left: 10%;
+padding-right: 10%;
+}
+li{
+	text-align: center;
+top: 155%;
+color: black;
+font-size: 28px;
+font-family: serif;
+padding-left: 10%;
+padding-right: 10%;
+}
+li:hover{
+background-color: hotpink;
+}
+p:hover{
+background-color: lightskyblue;
+}
+@media screen and (min-width: 900px) {
+	.canvas {
+		border: 10px;
+		border-color: darkred;
+	}

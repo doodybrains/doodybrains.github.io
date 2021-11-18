@@ -1,0 +1,91 @@
+html{
+	box-sizing: border-box;
+
+}
+*,
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow:hidden; 
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13550320/original_7a55425ca74d7f723038f9c46cacf6dc.jpg?1634140481?bc=0");
+	background-size: cover;
+}
+
+.canvas{
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+p{
+	color:black;
+	font-family: serif;
+	margin-top: 90px;
+	margin-left: 80px;
+	font-size: 130px;
+	position:relative;
+	z-index: 10;
+	line-height:20px;
+}
+#hidden{
+	color:white;
+
+}
+
+.hover{
+	opacity:0%;
+}
+#text:hover { 
+	color:white;
+ }
+ .hover:hover ~ .hover{
+ 	opacity:1;
+ }
+ .show{
+ 	opacity:1;
+ }
+
+ .img-1{
+	position: absolute;
+	padding: 10px;
+	top:30%;
+	left:10%;
+	z-index: 9; 
+	width: 30%;  
+}
+.img-1 img{
+	width: 75%;
+}
+.img-2{
+	position: absolute;
+	padding: 10px;
+	top:45%;
+	left:25%;
+	z-index: 9; 
+	width: 30%; 
+
+}
+.img-2 img{
+	width: 100%;
+}
+@media screen and (max-width: 957px) {
+	p{
+		font-size: 100px;
+	}
+	.img-1{
+		width:50%;
+	}
+	.img-2{
+		width:50%;
+	}
+}
+@media screen and (max-width: 754px) {
+	p{
+		font-size: 70px;
+	}
+}
+

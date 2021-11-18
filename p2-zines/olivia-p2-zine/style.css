@@ -1,0 +1,67 @@
+style.css
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/13556087/original_f4c463fd0bfda0de6e66699398737caa.png?1634162678?bc=0);
+
+	
+}
+
+.canvas {
+
+	height: 100vh;
+	width: 100vw;
+	border: 2px solid red;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+img {
+	position: absolute;
+	z-index: 1;
+}
+
+h1 {
+	color:goldenrod;
+	font-size: 45em;
+	text-shadow: 10px 10px #ff0000;
+	z-index: 9;
+}
+
+.myth:hover {
+color:#ff0000;
+text-shadow: 10px 10px goldenrod;
+}
+
+.p1 {
+	background-color:#000000;
+	border:dotted;
+	border-color:goldenrod;
+	color:#96DED1;
+	font-size: 3em;
+	width:70vw;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+	padding:50px;
+	text-align:center;
+}
+
+@media screen and (max-width: 1200px) {
+h1 {
+	font-size: 10em;
+}
+
+}

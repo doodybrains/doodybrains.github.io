@@ -1,0 +1,32 @@
+html {
+  box-sizing: border-box;
+
+}
+*
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 10;
+  padding: 10;
+  overflow: hidden;
+}
+
+.canvas {
+  height: 100vh;
+  width: 96vw;
+  border: 20px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+h1 {
+  color: white;
+  position: left;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: green;
+  }
+}

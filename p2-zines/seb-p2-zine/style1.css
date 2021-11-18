@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.canvas {
+    height: 100vh;
+    width: 100vw;
+    margin: 20;
+    padding: 20;
+    border: ;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    align-items: center;
+}
+
+p {
+    font-size: 1.5em;
+    color: #bfbfbf;
+    text-align: center;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    z-index:
+}
+
+img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin: 0 auto;
+    margin-top: -10%;
+    width: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-color: #666666;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        font-family: sans-serif;
+        text-transform: uppercase;
+    }
+
+    .canvas {
+        height: 100vh;
+        width: 100vw;
+        border: ;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+
+    .ayoub {
+        background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13565288/original_5f4ca3c082a16e8c0832251b9df549e3.jpg?1634221824?bc=0");
+        background-position: center;
+        background-size: cover;
+    }
+
+    p {
+        font-size: 2em;
+        color: #000000;
+        text-align: center;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        z-index:
+    }
+
+    img {
+        width: 50%;
+    }

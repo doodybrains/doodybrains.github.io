@@ -1,0 +1,73 @@
+html{
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing:inherit;
+}
+
+body{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+.canvas{
+	height: 100vh;
+	width: 100vw;
+	border: 8px solid pink;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.canvas.bg{
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13555277/original_218fe8d4bdcfcc03d930fe08af0553fc.png?1634159331?bc=0");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#sliding-paragraph {
+	height: 245px;
+}
+
+.slide-out, .slide-in {
+	display: block;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	-webkit-transition: all 300ms ease-in-out;
+
+}
+
+.slide-in {
+	opacity: 0;
+	-webkit-transform: translate(400px, 0);
+}
+
+
+#sliding-paragraph:hover .slide-out {
+	opacity: 0;
+	-webkit-transform: translate(-20px, 0);
+}
+
+#sliding-paragraph:hover .slide-in {
+	opacity: 1;
+	-webkit-transform: translate(0px, 0);
+}
+
+#caps {
+	color: white;
+}
+
+#caps:hover {
+	text-transform: uppercase;
+	color: pink;
+}
+
+#caps-red:hover {
+	text-transform: uppercase;
+	color: red;
+}

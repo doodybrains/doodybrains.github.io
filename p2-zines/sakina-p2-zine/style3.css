@@ -1,0 +1,54 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+@media screen and (min-width: 800px) {
+  
+}
+.canvas {
+  height: 100vh;
+  width: 100vw;
+  border: 2px solid red;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  
+}
+.lauren {
+  background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13473811/original_1464fa509b7cef292b95e75a7098f7a7.jpg?1633636299?bc=0")
+
+ }
+ .sneaker {
+  font-size: 50pt;
+  color: #FB21BA;
+  text-transform: capitalize;
+  font-family: Lato;
+  z-index: 11;
+  position: relative;
+  top: 100;
+  text-align: center;
+ }
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: .7;
+  z-index:10;
+}
+.image2 {
+  position: absolute;
+  top: 910px;
+  right: 800px;
+  border: 4px solid black;
+}

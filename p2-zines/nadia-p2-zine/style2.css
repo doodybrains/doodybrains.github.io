@@ -1,0 +1,59 @@
+html{
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing:inherit;
+}
+
+body{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+}
+
+.canvas{
+	height: 100vh;
+	width: 100vw;
+	border: 8px solid black;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.canvas.bg{
+	background-image: url("https://images.squarespace-cdn.com/content/v1/5ac4165c9d5abb096069c163/1526611351559-0WDGD8E8QRBR9USSYSEY/IMG_1274.JPG?format=1500w");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#sliding-paragraph {
+	height: 245px;
+}
+
+.slide-out, .slide-in {
+	display: block;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	-webkit-transition: all 300ms ease-in-out;
+
+}
+
+.slide-in {
+	opacity: 0;
+	-webkit-transform: translate(400px, 0);
+}
+
+
+#sliding-paragraph:hover .slide-out {
+	opacity: 0;
+	-webkit-transform: translate(-400px, 0);
+}
+
+#sliding-paragraph:hover .slide-in {
+	opacity: 1;
+	-webkit-transform: translate(0px, 0);
+}

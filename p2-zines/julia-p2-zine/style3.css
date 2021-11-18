@@ -1,0 +1,64 @@
+html{
+	box-sizing: border-box;
+
+}
+*,
+*:before,
+*:after{
+	box-sizing: inherit;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow:hidden; 
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13565288/original_5f4ca3c082a16e8c0832251b9df549e3.jpg?1634221824?bc=0");
+	background-size: cover;
+}
+
+.canvas{
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+}
+p{
+	color:white;
+	font-family:sans-serif;
+	text-align: center;
+	padding: 100px;
+	font-size: 300px;
+	position:relative;
+	z-index: 10;
+	text-shadow: 5px 5px 5px black;
+
+}
+.img-1{
+	position: absolute;
+	padding: 10px;
+	bottom:-49%;
+	left:2%;
+	z-index: 9; 
+	width: 600px;  
+
+}
+.img-1 img{
+	width: 100%;
+	border-radius: 20%;
+}
+.img-1:hover{
+	transform:translate(0px, -100px);
+	animation-delay: 2s;
+}
+.img-2{
+	position: absolute;
+	padding: 10px;
+	top:15%;
+	left:-10%;
+	z-index: 9; 
+	width: 500px;  
+
+}
+.img-2 img{
+	width: 75%;
+	border-radius: 20%;
+}

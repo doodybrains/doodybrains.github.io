@@ -1,0 +1,92 @@
+style2.css
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	overflow: hidden;
+	background-image: url(https://d2w9rnfcy7mm78.cloudfront.net/13561627/original_5a6e2c22eba74a16475ae0ca1a1df834.jpg?1634194366?bc=0);
+	background-size: 100vw;
+	font-family: 'Carrois Gothic SC', sans-serif;
+	
+}
+
+.image1 {
+	position: absolute;
+	margin-right:50px;
+	margin-left:87vw;
+	margin-top:50px;
+	z-index: -10;
+}
+
+.image2 {
+	position: absolute;
+	width:300px;
+	margin-right:50px;
+	margin-left:85.8vw;
+	margin-top:400px;
+	z-index: -10;
+}
+
+.image3 {
+	position: absolute;
+	width:425px;
+	margin-right:50px;
+	margin-left:83.4vw;
+	margin-top:880px;
+	z-index: -10;
+	transform:rotate(90deg);
+	animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  50% {transform: rotate(0deg);}
+}
+
+h1 {
+	font-size: 20em;
+	margin-left: 100px;
+
+}
+
+h1:hover {
+text-shadow: 5px 5px #ffffff;
+}
+
+.pp1 {
+	font-size:2em;
+	color:#40B5AD;
+	width:65vw;
+	display:block;
+	margin-top: 500px;
+	margin-bottom:200px;
+	margin-left:auto;
+	margin-right:auto;
+	border-left:dotted;
+	border-size:10px;
+	border-right:dotted;
+	border-color:goldenrod;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.journey {
+	font-size:8em;
+}
+
+.journey:hover {
+	color:goldenrod;
+}
+
+.canvas {
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}

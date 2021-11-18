@@ -1,0 +1,93 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.canvas-sakina {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	border: 2px solid beige;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	background-image: url("squid.png");
+	background-size: 100px;
+}
+
+p {
+	position:absolute;
+	font-size: 150px;
+	font-family: 'Kanit', sans-serif;
+	color: salmon;
+	text-align: center;
+	z-index: 10
+}
+
+.text {
+	position: absolute;
+	height: 60%;
+	top: 400px;
+	left:200px;
+	z-index: 9;
+	transform: skew(20deg);
+
+	
+	-webkit-transition: all 500ms ease-in-out;
+}
+
+.text:hover {
+	animation: rotate 4s linear;
+
+	border-radius: 1400px;	
+
+	-webkit-transform: scale(2.25);
+	
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(20deg);
+	}
+	50% {
+		transform: rotate(-20deg);
+	}
+	75% {
+		transform: rotate(20deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+
+.meme{
+	position: relative;
+	height: 70%;
+	display: inline-block;
+	margin-right: 0;
+	left: 1000px;
+	z-index: 9;
+}
+
+#world {
+	font-family: monospace;
+	color: red;
+}
+
+@media screen and (max-width: 800px) {
+	.canvas-sakina {
+		background-size:cover;
+	}
+}

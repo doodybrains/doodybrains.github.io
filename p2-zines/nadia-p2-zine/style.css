@@ -1,0 +1,94 @@
+html{
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+	box-sizing:inherit;
+}
+
+body{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/13477742/original_2f56bba3d6c31ad608a5330a491bf2ef.png?1633654917?bc=0");
+}
+
+.canvaslauren{
+	height: 100vh;
+	width: 100vw;
+	border: 40px solid black;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+	.zine{
+	position: absolute;
+	top: 20%;
+	left: 45%;
+	height: 200px;
+	width: 100px;
+	border: yellow;
+	z-index: 10;
+}
+
+#any {
+	color: #ccc;
+}
+
+#any:hover {
+	color: black;
+}
+
+@media screen and (min-width:800px) {
+
+}
+
+#shape-paragraph {
+	position: relative;
+	height: 390px;
+
+}
+
+#square {
+    width: 5000px;
+    height: 250px;
+    position: absolute;
+    display: block;
+    top: 50%;
+    margin-top: -130px;
+    left: 50%;
+    margin-left: -100px;
+    background-color: yellow;
+    z-index:9;
+
+	-webkit-transform: rotate(45deg);
+	-webkit-transition: all 500ms ease-in-out;
+
+}
+
+#shape-paragraph:hover #square {
+	width: 500px;
+    height: 250px;
+	top: 50%;
+    margin-top: -130px;
+    left: 80%;
+    margin-left: -200px;
+    background-color: lightblue;
+
+	-webkit-transform: scale(2.25);
+   
+}
+
+.top{
+		z-index: 10;
+		display: block;
+		position: relative;
+
+}
+
+
+
+
+

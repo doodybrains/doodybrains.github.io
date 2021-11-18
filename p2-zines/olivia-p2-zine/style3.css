@@ -1,0 +1,77 @@
+style3.css
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+.background1 {
+	position: absolute;
+	width:700px;
+	margin-right:50vw;
+	margin-left:35vw;
+	margin-top:50px;
+	z-index: -10;
+}
+.background2 {
+	position: absolute;
+	width:700px;
+	margin-right:50vw;
+	margin-left:35vw;
+	margin-top:1200px;
+	z-index: -10;
+}
+.background3 {
+	position: absolute;
+	width:700px;
+	margin-right:50vw;
+	margin-left:35vw;
+	margin-top:2350px;
+	z-index: -10;
+}
+.background4 {
+	position: absolute;
+	width:700px;
+	margin-right:50vw;
+	margin-left:35vw;
+	margin-top:3500px;
+	z-index: -10;
+}
+
+
+.adrenaline {
+	font-size:10em;
+	color:#FF5733;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 10px 10px #1434A4;
+}
+
+.junkies {
+	font-size:10em;
+	color:#FF5733;
+	margin-left:75vw;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-style: italic;
+	text-shadow: 10px 10px #1434A4;
+}
+
+.p1 {
+ font-size:2em;
+ position:relative;
+ padding-left:100px;
+ padding-right:100px;
+}
+
+.canvas {
+	height: 100vh;
+	width: 100vw;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
